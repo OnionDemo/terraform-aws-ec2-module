@@ -1,5 +1,6 @@
 output "instance_id" {
-    description = "ID of the E
+    description = "ID of the EC2 instance"
+    value       = aws_instance.ec2_instance.id
 }
 
 output "public_ip" {
